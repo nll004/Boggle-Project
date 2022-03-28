@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block page_title %} Boggle {% endblock %}
+
+{% block page_content %}
+    <h1>Boggle</h1>
+    <p>On the board below, look for the longest word you can find.</p>
+    <p>Rules: The letters have to be touching the previous letter.</p>
+    <table>
+        {% for ind in game %}
+        <tr>
+            {% for letter in ind %}
+            <td>{{ letter }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    <form action="" id="ans-form" name="ans">
+        <h2> Enter a word </h2>
+        <input type="text" id="ans-input" placeholder="Enter your guess" autocomplete="off">
+        <button>Submit</button>
+    </form>
+{% endblock %}

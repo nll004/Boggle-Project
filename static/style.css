@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+p {
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    margin: 0;
+}
+
+table {
+    border: 2px solid black;
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    left: 25%;
+    margin-top: 20px;
+}
+
+td {
+    border: 3px solid green;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    left: 35%;
+    width: 30vw;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(111, 206, 111);
+}
+
+.display-result {
+    width: 60vw;
+    color: green;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    background-color: whitesmoke;
+    text-align: center;
+}
